@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Karma", sans-serif;
+}
+.header{
+padding:20px;
+position: sticky;
+top:0px;
+background-color: #fff;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;    
+}
+.food,.icon,.mail{
+    /* padding:; */
+    font-size: 1.5rem;
+}
+.main{
+    display: flex;
+    vertical-align: top;
+    margin:0px  10px;
+    padding:5px;
+}
+section{
+    flex-shrink: 0;
+    width:300px;
+    vertical-align: top;
+    padding:2px;
+    margin:0px 10px;
+    /* display:flex; */
+}
+img{
+    width:100%;
+
+}
+p{
+    margin:15px 0px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+h3{
+    margin:10px 0px;
+    font-size:1.5rem;
+    font-weight: 500;
+}
